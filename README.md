@@ -72,6 +72,15 @@ ifdef AUTO_BED_LEVELING_GRID
     #define FRONT_PROBE_BED_POSITION 20
 
 ####to change the Z Offset default 
-in the Configuration_adv.h
+in the Configuration.h uncomment the two defines 
 
-	EXTRUDER1_Z_OFFSET 0.0 
+    #define EEPROM_SETTINGS
+    #define EEPROM_CHITCHAT
+
+then, when you change for example the z_offset in the Control, Motion Z_Offset ...
+    you can now safe the changes in the main menu with `Store memory`
+    it is also possible the load the backup with `Load Memory` or get the firmware values back with `Restory failsafe`
+    but than all the firmware values getting written in the EEPROM
+
+this also works for the Temperature settings with PLA and ABS
+
