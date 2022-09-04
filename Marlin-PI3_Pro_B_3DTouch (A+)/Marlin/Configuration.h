@@ -371,8 +371,8 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
   #ifdef AUTO_BED_LEVELING_GRID
 
     // set the rectangle in which to probe
-    #define LEFT_PROBE_BED_POSITION 30
-    #define RIGHT_PROBE_BED_POSITION 190
+    #define LEFT_PROBE_BED_POSITION 20
+    #define RIGHT_PROBE_BED_POSITION 180
     #define BACK_PROBE_BED_POSITION 137
     #define FRONT_PROBE_BED_POSITION 20
 
@@ -397,7 +397,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
   // these are the offsets to the probe relative to the extruder tip (Hotend - Probe)
   // X and Y offsets must be integers
-  #define X_PROBE_OFFSET_FROM_EXTRUDER 8
+  #define X_PROBE_OFFSET_FROM_EXTRUDER -3
   #define Y_PROBE_OFFSET_FROM_EXTRUDER -43
   #define Z_PROBE_OFFSET_FROM_EXTRUDER 4
 
