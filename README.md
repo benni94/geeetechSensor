@@ -84,3 +84,10 @@ then, when you change for example the z_offset in the Control, Motion Z_Offset .
 
 this also works for the Temperature settings with PLA and ABS
 
+#### measuring
+
+the achses where the printer is running on should have the same distance
+https://github.com/MarlinFirmware/Marlin/issues/5578#:~:text=%40eduardoscamargo%20I%20have%20actually%20gotten%20a%20few%20direct%20e%2Dmails%20with%20this%20question.%20I%20have%20made%20a%20video%20descriptively%20explaining%20what%20I%20meant%20by%20%22twisted%22%20and%20have%20uploaded%20it%20here%20for%20anyone%20who%20may%20be%20having%20the%20same%20struggle%20I%20was.%20CLICK%20HERE%20TO%20GO%20TO%20EXPLANATION%20VIDEO
+
+take a measuring stick or something to measure and be sure that every distance is in water (same distance) 
+tooks me hours to figure out, that the x axis was crooked
